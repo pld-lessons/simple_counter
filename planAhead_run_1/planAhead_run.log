@@ -1,0 +1,70 @@
+
+****** PlanAhead v14.5 (64-bit)
+  **** Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+    ** Copyright 1986-1999, 2001-2012 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from F:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [F:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [F:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source Z:/Projects/pld-lessons/test-zero/testing/pa.fromHdl.tcl
+# create_project -name testing -dir "Z:/Projects/pld-lessons/test-zero/testing/planAhead_run_1" -part xc3s500evq100-5
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "AND2gate.ucf" [current_fileset -constrset]
+Adding file 'Z:/Projects/pld-lessons/test-zero/testing/AND2gate.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {test_verilog.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top AND2gate $srcset
+# add_files [list {AND2gate.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s500evq100-5
+Using Verific elaboration
+Parsing VHDL file "F:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "Z:/Projects/pld-lessons/test-zero/testing/test_verilog.v" into library work
+INFO: [Designutils 20-910] Reading macro library F:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [F:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [F:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from F:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+Loading clock buffers from F:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+Loading package from F:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/vq100/Package.xml
+Loading io standards from F:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from F:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/vq100/SSORules.xml
+Loading list of drcs for the architecture : F:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library F:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-5.lib.
+INFO: [Timing 38-34] Done reading timing library F:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-5.lib.
+Parsing UCF File [Z:/Projects/pld-lessons/test-zero/testing/AND2gate.ucf]
+Finished Parsing UCF File [Z:/Projects/pld-lessons/test-zero/testing/AND2gate.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: f19f042d
+open_rtl_design: Time (s): elapsed = 00:00:07 . Memory (MB): peak = 580.367 ; gain = 149.258
+update_compile_order -fileset sim_1
+set_property PULLUP {1} [get_ports A]
+startgroup
+set_property package_pin P2 [get_ports A]
+endgroup
+set_property is_loc_fixed false [get_ports [list  A]]
+set_property is_loc_fixed true [get_ports [list  A]]
+set_property is_loc_fixed false [get_ports [list  A]]
+set_property is_loc_fixed true [get_ports [list  A]]
+startgroup
+set_property package_pin P3 [get_ports B]
+endgroup
+startgroup
+set_property package_pin P4 [get_ports C]
+endgroup
+startgroup
+set_property package_pin P5 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports F]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue Jun 04 20:25:15 2013...
+INFO: [Common 17-83] Releasing license: PlanAhead

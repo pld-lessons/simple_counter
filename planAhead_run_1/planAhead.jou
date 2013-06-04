@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5 (64-bit)
+# Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+# Start of session at: Tue Jun 04 20:20:04 2013
+# Process ID: 2852
+# Log file: Z:/Projects/pld-lessons/test-zero/testing/planAhead_run_1/planAhead.log
+# Journal file: Z:/Projects/pld-lessons/test-zero/testing/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source Z:/Projects/pld-lessons/test-zero/testing/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property PULLUP {1} [get_ports A]
+startgroup
+set_property package_pin P2 [get_ports A]
+endgroup
+set_property is_loc_fixed false [get_ports [list  A]]
+set_property is_loc_fixed true [get_ports [list  A]]
+set_property is_loc_fixed false [get_ports [list  A]]
+set_property is_loc_fixed true [get_ports [list  A]]
+startgroup
+set_property package_pin P3 [get_ports B]
+endgroup
+startgroup
+set_property package_pin P4 [get_ports C]
+endgroup
+startgroup
+set_property package_pin P5 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports F]
+endgroup
+save_constraints

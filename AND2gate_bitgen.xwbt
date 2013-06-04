@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=Z:\Projects\pld-lessons\test-zero\testing\AND2gate.ncd
+OUTFILE=Z:\Projects\pld-lessons\test-zero\testing\AND2gate.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5vq100
+WORKINGDIR=Z:\Projects\pld-lessons\test-zero\testing
+LICENSE=WebPack
+USER_INFO=204658214_0_0_972

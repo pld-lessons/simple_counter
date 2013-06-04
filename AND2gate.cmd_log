@@ -1,0 +1,40 @@
+xst -intstyle ise -ifn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.xst" -ofn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-vq100-5 AND2gate.ngc AND2gate.ngd  
+map -intstyle ise -p xc3s500e-vq100-5 -cm area -ir off -pr off -c 100 -o AND2gate_map.ncd AND2gate.ngd AND2gate.pcf 
+par -w -intstyle ise -ol high -t 1 AND2gate_map.ncd AND2gate.ncd AND2gate.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml AND2gate.twx AND2gate.ncd -o AND2gate.twr AND2gate.pcf 
+bitgen -intstyle ise -f AND2gate.ut AND2gate.ncd 
+xst -intstyle ise -ifn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.xst" -ofn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.syr" 
+xst -intstyle ise -ifn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.xst" -ofn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.syr" 
+xst -intstyle ise -ifn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.xst" -ofn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.syr" 
+xst -intstyle ise -ifn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.xst" -ofn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.syr" 
+xst -intstyle ise -ifn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.xst" -ofn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.syr" 
+xst -intstyle ise -ifn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.xst" -ofn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.syr" 
+xst -intstyle ise -ifn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.xst" -ofn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.syr" 
+xst -intstyle ise -ifn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.xst" -ofn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.syr" 
+xst -intstyle ise -ifn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.xst" -ofn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc AND2gate.ucf -p xc3s500e-vq100-5 AND2gate.ngc AND2gate.ngd  
+map -intstyle ise -p xc3s500e-vq100-5 -cm area -ir off -pr off -c 100 -o AND2gate_map.ncd AND2gate.ngd AND2gate.pcf 
+par -w -intstyle ise -ol high -t 1 AND2gate_map.ncd AND2gate.ncd AND2gate.pcf 
+xst -intstyle ise -ifn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.xst" -ofn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc AND2gate.ucf -p xc3s500e-vq100-5 AND2gate.ngc AND2gate.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc AND2gate.ucf -p xc3s500e-vq100-5 AND2gate.ngc AND2gate.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc AND2gate.ucf -p xc3s500e-vq100-5 AND2gate.ngc AND2gate.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc AND2gate.ucf -p xc3s500e-vq100-5 AND2gate.ngc AND2gate.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc AND2gate.ucf -p xc3s500e-vq100-5 AND2gate.ngc AND2gate.ngd  
+map -intstyle ise -p xc3s500e-vq100-5 -cm area -ir off -pr off -c 100 -o AND2gate_map.ncd AND2gate.ngd AND2gate.pcf 
+par -w -intstyle ise -ol high -t 1 AND2gate_map.ncd AND2gate.ncd AND2gate.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml AND2gate.twx AND2gate.ncd -o AND2gate.twr AND2gate.pcf -ucf AND2gate.ucf 
+bitgen -intstyle ise -f AND2gate.ut AND2gate.ncd 
+xst -intstyle ise -ifn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.xst" -ofn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.syr" 
+xst -intstyle ise -ifn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.xst" -ofn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.syr" 
+xst -intstyle ise -ifn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.xst" -ofn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.syr" 
+xst -intstyle ise -ifn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.xst" -ofn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.syr" 
+xst -intstyle ise -ifn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.xst" -ofn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc AND2gate.ucf -p xc3s500e-vq100-5 AND2gate.ngc AND2gate.ngd  
+xst -intstyle ise -ifn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.xst" -ofn "Z:/Projects/pld-lessons/test-zero/testing/AND2gate.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc AND2gate.ucf -p xc3s500e-vq100-5 AND2gate.ngc AND2gate.ngd  
+map -intstyle ise -p xc3s500e-vq100-5 -cm area -ir off -pr off -c 100 -o AND2gate_map.ncd AND2gate.ngd AND2gate.pcf 
+par -w -intstyle ise -ol high -t 1 AND2gate_map.ncd AND2gate.ncd AND2gate.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml AND2gate.twx AND2gate.ncd -o AND2gate.twr AND2gate.pcf -ucf AND2gate.ucf 
+bitgen -intstyle ise -f AND2gate.ut AND2gate.ncd 

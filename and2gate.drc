@@ -1,0 +1,11 @@
+Release 14.5 Drc P.58f (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Tue Jun 04 21:04:23 2013
+
+drc -z AND2gate.ncd AND2gate.pcf
+
+WARNING:PhysDesignRules:367 - The signal <BI_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+DRC detected 0 errors and 1 warnings.  Please see the previously displayed
+individual error or warning messages for more details.
